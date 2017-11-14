@@ -1,12 +1,11 @@
 #!/usr/bin/env python
 
-# Author Dr. Ziad Salem
-#Add hear in to the lines 
+#Author Dr. Ziad Salem
 #Search for 'ir_raw' in the file, then save the sensors values only into a new file
-#I took the time off (secod line) but in that case we have to be careful to separate the backgroung from the rest of the file.
-#either we check the time stamp about when the the real bees recording start
+#I took the time off (secod col.)
+#be careful to separate the backgroung from the rest of the file. 
+#either you could check the timestamp about when the the real bees recording start
 #or we blink the top led (diagnosticled) for 1 sec and we check that from the log file
-
 #the file will handle the csv and plotting
 
 import time
